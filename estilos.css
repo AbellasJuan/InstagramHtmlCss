@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    font-family: Roboto;
+
+    background-color: blue;
+  }
+  
+  .barra-do-topo {
+    position: fixed;
+
+
+    width: 100%;
+    height: 54px;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    background-color: white;
+  }
+  
+  .barra-menor-com-itens-topo {
+    width: 935px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+  }
+  
+  .partebarra-direita-superior{
+    font-size: 20px;
+    letter-spacing: 20px;
+  }
+
+  /*BARRA PESQUISAR DO MEIO DO TOPO*/
+  .barra-pesquisar{
+    
+    width: 215px;
+    height: 26px;
+
+    text-align: center;
+
+    background: #FAFAFA;
+    border: 1px solid #DBDBDB;
+    box-sizing: border-box;
+    border-radius: 3px;
+    
+    ;
+  }
+.barra-pesquisar{
+  
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.barra-pesquisar p{
+  
+  font-size: 12px;
+  color: #979797;
+
+}
+
+/*INICIO PARTE ESQUERDA DA TOPO*/
+.partebarra-esquerda-superior{
+    display: flex;
+    background-color: white;
+}
+  .logo-instagram img{
+    padding-top: 3px;
+    width: 20px;
+    background-color: white;
+  }
+  .barrinha-entre-logo-e-nome{
+    margin: 2px 8px 0 11px;
+    height: 23px;
+    width: 1px;
+    background-color: #cecece;
+  }
+  .nome-instagram img{
+    padding-top: 2px;
+    margin-left: 5px;
+    height: 29px;
+  }
+  /*FIM DA PARTE ESQUERDA DO TOPO*/
+
+  .div-storie-mais-posts-e-sidebar {
+    width: 935px;
+  
+    display: flex;
+    justify-content: space-between;
+  }
+  
+
+
+  /*BARRA DE STORIES*/
+.barra-de-stories {
+    display: flex;
+    align-items: center;
+    
+
+    margin-top: 88px;
+  
+    width: 614px;
+    height: 118px;
+  
+    overflow:hidden;
+
+    background-color: white;
+  }
+
+.fundo-circulo {
+      
+
+    width: 614px;
+    height: 118px;
+  
+    display:flex;
+    
+    justify-content: space-around;
+    align-items: center;
+  }
+
+.fundo-circulo img{
+    
+    width: 66px;
+  
+    margin-left: ;
+  }
+
+.fundo-circulo p {
+  font-size: 12px;
+
+  margin-left: 15px;
+  margin-top: 3px;
+
+  text-align: center;
+}
+
+
+
+/*imagens de dentro do storie*/
+.imagens-do-storie {
+
+
+  width: 614px;
+  height: 118px;
+
+  
+  margin-bottom: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  position: absolute;
+}
+
+.imagens-do-storie img {
+
+  border-radius: 100%;
+  
+  margin-left: px;
+  margin-bottom: 4px;
+
+  width: 55px;
+  height: 55px;
+  
+}
+.primeira-imagem img{
+  margin-left: 0px;
+}
+
+
+
+
+
+ /*FIM DA BARRA DE STORIE*/  
+  .sidebar {
+    margin-top: 88px;
+  
+    width: 293px;
+    height: 100%;
+  
+    background-color: red;
+  }
+  
+  .caixa-de-post {
+    margin-top: 34px;
+    margin-bottom: 60px;
+  
+    width: 614px;
+    height: 749px;
+  
+    background-color: lightseagreen;
+  }
+  
+  .barra-superior-post {
+    height: 61px;
+  
+    background-color: lightsteelblue;
+  }
+  
+  .imagem-central {
+    height: 621px;
+    background-color: greenyellow;
+  }
+  
+  .barra-inferior1-post {
+    height: 33px;
+  
+    background-color: limegreen;
+  }
+  
+  .barra-inferior2-post {
+    height: 34px;
+  
+    background-color: lightskyblue;
+  }
+  
