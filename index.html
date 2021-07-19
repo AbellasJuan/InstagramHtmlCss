@@ -2,17 +2,25 @@
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width,initial scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Instagram</title>
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="estilos.css" />
   </head>
 
   <body>
-    
-    <!--FALTA COLOCAR AS IMAGENS-->
+   
+  <!--BARRA DO TOPO-->
     <div class="barra-do-topo">
       <div class="barra-menor-com-itens-topo">
+        
+        <!--ESSA DIV DE BAIXO SO VAI SER ATIVADA NO MOBILE-->
+        <div class="alinhar-itens-mobile">
+          <div><ion-icon name="logo-instagram"></ion-icon></div>
+          <div><img src="imagens/logo.png"> </div>
+          <ion-icon name="paper-plane-outline"></ion-icon>
+        </div>
+        <!--ESSA DIV DE CIMA SO VAI SER ATIVADA NO MOBILE-->
         
         <div class ="partebarra-esquerda-superior">
         <div class="logo-instagram"> <img src="imagens/logotransparente.png"></div>
@@ -22,14 +30,16 @@
         
         <div class="barra-pesquisar"><p>Pesquisar</p></div>
         
-        <div class="partebarra-direita-superior">
-          <ion-icon name="paper-plane-outline"></ion-icon>
-          <ion-icon name="compass-outline"></ion-icon>
-          <ion-icon name="heart-outline"></ion-icon>
-          <ion-icon name="person-outline"></ion-icon>
+        <div class="parte-barra-direita-superior">
+          <ion-icon class="aviao" name="paper-plane-outline"></ion-icon>
+          <ion-icon class="bussola" name="compass-outline"></ion-icon>
+          <ion-icon class="coracao" name="heart-outline"></ion-icon>
+          <ion-icon class="usuario" name="person-outline"></ion-icon>
         </div>
       </div>
     </div>
+    <!--FIM DA BARRA DO TOPO-->
+    
     <div class="div-storie-mais-posts-e-sidebar">
       <div class="div-com-stories-e-posts">
         
@@ -87,9 +97,10 @@
                         <p>doncic</p></div> 
     </div>
 
-
-        <!--CAIXA DOS POST 1-->
+<!--FIM DA BARRA DE STORIES-->
+    
         <div class="div-dos-posts-todos">
+ <!--CAIXA DOS POST 1-->    
           <div class="caixa-de-post">
             <div class="barra-superior-post">
               <img src="imagens/mitchelstorie.jpg">
@@ -169,9 +180,16 @@
           </div>
         </div>
         <!--FIM DA CAIXA DE POSTS-->
+        <div class="barra-final">
+          <ion-icon  name="home"></ion-icon>
+          <ion-icon name="search-outline"></ion-icon>
+          <ion-icon name="add-circle-outline"></ion-icon>
+          <ion-icon  name="heart-outline"></ion-icon>
+          <ion-icon  name="person-outline"></ion-icon>
+         </div>
       </div>
       <!--fechamento caixa de stories + posts-->
-
+  
      <div class="sidebar-completo">
       <div class="sidebar">
          <img src="imagens/michael-jordan.jpg">
@@ -257,10 +275,13 @@
            </div>
 
      </div>
+    
+    
     </div>
+    
     <!--fechamento da caixa com "div storie+posts" e "sidebar"-->
 
-
+    
 
 
 
