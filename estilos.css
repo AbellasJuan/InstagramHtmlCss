@@ -105,6 +105,9 @@ body {
   
     display: flex;
     justify-content: space-between;
+  
+    position: relative;
+
   }
   
 
@@ -166,6 +169,8 @@ z-index: 9;
 
   background-image: url("imagens/stories_background.jpg");
   background-size: cover; 
+
+  border-radius: 50%;
 
   position: relative;
   }
@@ -324,7 +329,8 @@ z-index: 9;
     border-radius: 50%;
    
   }
-.barra-superior-post p{
+  
+  .barra-superior-post p{
   padding-left: 15px;
 
   font-size: 14px;
@@ -415,8 +421,9 @@ z-index: 9;
 .sidebar-completo{
   width: 293px;
   height: auto;
-
   
+  position: fixed;
+  right: calc((100% - 935px) / 2);
 }
 
  .sidebar {
@@ -737,7 +744,6 @@ display: none;
 .partebarra-esquerda-superior{
   display: none;
 }
-
 
 } 
 
